@@ -1,0 +1,38 @@
+# 依赖
+node_modules/
+
+# 日志
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# 本地环境变量
+.env
+.env.*
+!.env.example
+
+# CC GUI 宿主的本地工作区数据（草稿、缓存，不随插件分发）
+.ccgui/
+
+# 本地插件打包产物
+*.ccgui.zip
+*.tgz
+dist/
+
+# 临时文件
+*.tmp
+*.bak
+*.swp
+*~
+
+# 编辑器 / IDE
+.idea/
+.vscode/
+*.iml
+
+# 操作系统
+.DS_Store
+Thumbs.db
+desktop.ini

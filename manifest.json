@@ -1,0 +1,17 @@
+{
+  "id": "thinking-zh",
+  "name": "中文思考",
+  "version": "0.2.1",
+  "tier": "js",
+  "description": "让模型的思考过程用中文呈现：请求尾部注入隐藏指令，并可把同一句话写入引擎的全局记忆文件（系统提示），对 Claude / GPT 才真正生效。",
+  "author": "zlt",
+  "sdkVersion": "^0.3",
+  "permissions": [
+    "prompt.contribute.internal",
+    "ui:settings-section",
+    "ui:status-bar",
+    "ui:command",
+    "storage",
+    "exec:node"
+  ]
+}
