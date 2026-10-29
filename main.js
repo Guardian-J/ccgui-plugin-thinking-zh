@@ -540,7 +540,7 @@ export default function activate(ctx) {
         h(
           "div",
           { style: hintStyle },
-          `目标文件（相对用户目录，存在才改写）：${SYSTEM_TARGETS.join("、")}`,
+          `目标文件（相对用户目录，不存在则创建）：${SYSTEM_TARGETS.join("、")}`,
         ),
         h("div", { style: hintStyle }, systemStatusText(value)),
         h(
